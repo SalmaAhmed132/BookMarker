@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMarker</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2 class="BookMarker p-5 fw-bold">BookMarker</h2>
+            <div class="BlackLine w-100 mb-5"></div>
+
+            <div class="Bookmark-Form text-center m-auto  ">
+                <h2 class="Bookmark-Fav my-5  fw-bold fs-4 ">Bookmark your favorite sites</h2>
+                <label class="pb-2 fw-bold" for="SiteName">Site Name</label>
+                <input id="siteName" class="form-control mb-4" type="text" placeholder="Bookmark Name">
+                <label class="pb-2 fw-bold" for="siteUrl">Site URL</label>
+                <input id="siteUrl" class="form-control" type="url" placeholder="Website URL">
+                <button disabled onclick="addMark()" class="btn btn-primary mt-4 mb-5" id="submit">Submit</button>
+            </div>
+
+           
+           <input id="search-inp" onkeyup="searchMark(this.value)" class="form-control mt-5 p-2" type="search" placeholder="serach by bookmark name">
+                <table class="table m-auto w-100 mt-4 ">
+                    
+                    <tbody id="rows" >
+                       
+                    </tbody>
+                  </table>
+
+                  <div class="BlackLine w-100 mt-5"></div>
+                  <p class="ink fw-bold p-4 ">© 2019 Bookmarker Inc.</p>
+
+                   <script src="./JS/index.js"></script>
+            
+        </div>
+    </div>
+</body>
+</html>

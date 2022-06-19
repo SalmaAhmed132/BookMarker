@@ -1,0 +1,102 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.BookMarker
+{
+    color: #aaaaaa;
+}
+
+.BlackLine
+{
+    background-color: rgb(158, 148, 148);
+     height: 1px;   
+}
+
+.Bookmark-Form
+{
+    background-color: #EEE;
+}
+#SiteName , #SiteUrl
+{
+    color: #646161;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+    
+}
+
+.ink
+{
+    color:  #AAA;
+}
+.table
+{
+    width: 80%;
+}
+.mark-container
+{
+  font-size:24px;
+  color: #333333;
+}
+.btn-visit:hover
+{
+ 
+  
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 2px 5px 3px 0px #888;
+
+}
+.btn-update
+{
+    color: white;
+}
+.btn-update:hover
+{
+ 
+  
+    background-color: #fac012;
+    border: 1px solid #a8810e;
+    box-shadow: 2px 5px 3px 0px #888;
+    color: white;
+
+}
+.btn-visit a
+{
+    text-decoration: none;
+    color: white;
+}
+.btn-delete
+{
+    background-color: #910004;
+    color: white;
+    border: 1px solid #910004;
+}
+.btn-delete:hover
+{
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+    box-shadow: 2px 5px 3px 0px #888;
+    color: white;
+
+}
+.mark-row
+{
+    background-image: linear-gradient(#EEE,#FFF);
+}
+#siteName , #siteUrl
+{
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+}
